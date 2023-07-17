@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   background-image: linear-gradient(to right, #e0bd3dda, #e7a633da, #eb8e31da, #ec7637da, #e95c40da), url('/fondo2.jpg');
-  /* background-image: linear-gradient(to right, #e0bd3d, #e7a633, #eb8e31, #ec7637, #e95c40); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -27,14 +26,14 @@
   display: flex;
   flex-direction: column;
   padding-left: 9rem;
-  gap: 2rem;
+
 }
 
 .contenedor_texto h1 {
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 .contenedor_texto p {
@@ -43,6 +42,7 @@
 
 /* BUTTON */
 .i-button {
+  margin-top: 2rem;
   width: 16rem;
   cursor: pointer;
   text-decoration: none;
@@ -90,10 +90,6 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  /* background-color: #afadad14;
-  backdrop-filter: blur(10px);
-  --webkit-backdrop-filter: blur(25px);
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
 }
 
 .right-cont .right__img img {
@@ -137,4 +133,47 @@
   .wave {
     bottom: -110px;
   }
+}
+
+@media screen and (max-width: 144px) {
+  .intro {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor_texto p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor_texto h1 {
+    font-size: 3rem;
+  }
+
+  .contenedor_texto p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro {
+    flex-direction: column;
+    padding-right: 7rem;
+  }
+
+  .right-cont {
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .right-cont .right__img img {
+    width: 200px;
+  }
+
+  .right-cont .content {
+    display: none;
+  }
+
 }

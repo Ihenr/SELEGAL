@@ -3,11 +3,11 @@ import './Services.css';
 
 const Services = () => {
   return (
-    <section className=" text-black px-24 relative top-[-20px] bg-white">
+    <section className=" relative pb-10 bg-white ">
       <div className="title_services">
         <p>Atendemos todos tus asuntos</p>
       </div>
-      <div className=" flex gap-10">
+      <div className="content">
         <div className="contnedor_services h-full">
           <div className="items">
             <div className="item-title">

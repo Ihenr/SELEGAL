@@ -13,13 +13,24 @@
   color: #FFA046;
 }
 
+.content {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 787px) {
+  .content {
+    padding: 0;
+  }
+
+}
+
 .contnedor_services {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 3.5rem;
   height: 100vh;
 
 }
@@ -31,7 +42,6 @@
   width: 350px;
   height: 350px;
   box-shadow: 0 5px 15px 6px rgba(0, 0, 0, 0.25);
-
 }
 
 .item-title {
@@ -51,4 +61,12 @@
   font-size: 1.4rem;
   color: #fff;
   list-style-type: disc;
+}
+
+@media screen and (max-width: 650px) {
+  .title_services p {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
 }

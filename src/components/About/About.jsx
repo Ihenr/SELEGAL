@@ -3,7 +3,7 @@ import img from '../../assets/imgs/Logo2.png';
 import './About.css';
 const About = () => {
   return (
-    <section className=" section overflow-hidden">
+    <section className=" section ">
       <div className="intro">
         <div className="i-left">
           <div className="contenedor_texto">
@@ -16,6 +16,7 @@ const About = () => {
               target="_blank"
               href="https://wa.me/593985570349"
               className="button i-button"
+              rel="noopener noreferrer"
             >
               Asesoría
             </a>
