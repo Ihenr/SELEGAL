@@ -165,7 +165,7 @@
   .right-cont {
     position: absolute;
     bottom: 0;
-    z-index: 20;
+    z-index: 1;
   }
 
   .right-cont .right__img img {
