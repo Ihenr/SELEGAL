@@ -3,7 +3,7 @@ import './Team.css';
 
 const Team = () => {
   return (
-    <section className=" w-full flex flex-col justify-center items-center py-16 team">
+    <section className=" w-full flex flex-col justify-center items-center py-16 team mt-20">
       <h2 className=" text-5xl uppercase  font-bold font-['Krub', sans-serif]">
         Nuestro Equipo
       </h2>

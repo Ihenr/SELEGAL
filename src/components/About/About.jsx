@@ -3,7 +3,7 @@ import img from '../../assets/imgs/Logo2.png';
 import './About.css';
 const About = () => {
   return (
-    <section className=" section ">
+    <section className="section ">
       <div className="intro">
         <div className="i-left">
           <div className="contenedor_texto">

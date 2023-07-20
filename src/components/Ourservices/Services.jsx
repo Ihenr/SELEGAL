@@ -9,7 +9,7 @@ const Services = () => {
       </div>
       <div className="content">
         <div className="contnedor_services h-full">
-          <div className="items">
+          <div className="items hover:scale-105">
             <div className="item-title">
               <h4>laborales</h4>
             </div>
@@ -23,7 +23,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="items">
+          <div className="items hover:scale-105">
             <div className="item-title">
               <h4>Asuntos civiles</h4>
             </div>
@@ -39,7 +39,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="items">
+          <div className="items hover:scale-105">
             <div className="item-title">
               <h4>Asuntos niñes y la familia</h4>
             </div>
@@ -59,7 +59,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="items">
+          <div className="items hover:scale-105">
             <div className="item-title">
               <h4>Asuntos penales</h4>
             </div>
@@ -74,7 +74,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="items">
+          <div className="items hover:scale-105">
             <div className="item-title">
               <h4>asuntos de mediación</h4>
             </div>

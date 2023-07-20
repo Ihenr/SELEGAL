@@ -41,7 +41,7 @@ const Carrusel = ({ images, autoPlay, showButtons }) => {
   });
 
   return (
-    <section className="flex justify-center items-center py-20 flex-col ">
+    <section className="flex justify-center items-center pt-20 flex-col ">
       <div className=" slides ">
         <img
           src={selectedImage}
@@ -55,7 +55,7 @@ const Carrusel = ({ images, autoPlay, showButtons }) => {
               {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-chevron-left"
+                  className="icon icon-tabler icon-tabler-chevron-left  max-[500px]:w-[50px] max-[500px]:h-[50px]"
                   width="100"
                   height="100"
                   viewBox="0 0 24 24"
@@ -74,7 +74,7 @@ const Carrusel = ({ images, autoPlay, showButtons }) => {
               {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-chevron-right"
+                  className="icon icon-tabler icon-tabler-chevron-right  max-[500px]:w-[50px] max-[500px]:h-[50px]"
                   width="100"
                   height="100"
                   viewBox="0 0 24 24"

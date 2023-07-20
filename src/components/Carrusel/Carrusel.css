@@ -34,3 +34,17 @@ img.loaded {
   filter: drop-shadow(0px 5px 4px rgb(0, 0, 0));
   padding: 0;
 }
+
+@media only screen and (max-width: 900px) {
+  .slides {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slides {
+    width: 90%;
+    height: 300px;
+  }
+}

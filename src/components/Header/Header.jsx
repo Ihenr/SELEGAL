@@ -4,7 +4,7 @@ import './Header.css';
 import BurguerButton from '../BurguerButton/BurguerButton';
 
 const Header = () => {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 952);
 
   const handleClick = () => {
