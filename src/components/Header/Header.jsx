@@ -4,7 +4,7 @@ import './Header.css';
 import BurguerButton from '../BurguerButton/BurguerButton';
 
 const Header = () => {
-  const [clicked, setClicked] = useState(true);
+  const [clicked, setClicked] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 952);
 
   const handleClick = () => {
@@ -23,6 +23,15 @@ const Header = () => {
     };
   }, []);
 
+  const handleLinkClick = (event, sectionId) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+    setClicked(true); // Cerrar el menú de navegación en dispositivos móviles después de hacer clic
+  };
+
   return (
     <header className={isMobile ? 'mobile' : ''}>
       <nav className={`menu ${isMobile && clicked ? 'show' : ''}`}>
@@ -30,12 +39,24 @@ const Header = () => {
           <img src={logo} alt="logo selegal"></img>
         </div>
         <div className={`lists ${clicked ? 'show' : ''}`}>
-          <a href="#">Inicio</a>
-          <a href="#">Servicios</a>
-          <a href="#">Equipo</a>
-          <a href="#">Acerca de</a>
-          <a href="#">Contactos</a>
-          <a href="#">Ubicacion</a>
+          <a href="#about" onClick={(e) => handleLinkClick(e, 'about')}>
+            Inicio
+          </a>
+          <a href="#services" onClick={(e) => handleLinkClick(e, 'services')}>
+            Servicios
+          </a>
+          <a href="#team" onClick={(e) => handleLinkClick(e, 'team')}>
+            Equipo
+          </a>
+          <a href="#content" onClick={(e) => handleLinkClick(e, 'content')}>
+            Acerca de
+          </a>
+          <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>
+            Contactos
+          </a>
+          <a href="#location" onClick={(e) => handleLinkClick(e, 'location')}>
+            Ubicacion
+          </a>
         </div>
         <div className="burguer" onClick={handleClick}>
           <BurguerButton clicked={clicked} />
