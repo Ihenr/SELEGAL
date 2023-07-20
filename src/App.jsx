@@ -31,10 +31,10 @@ function App() {
       <div id="team">
         <Team />
       </div>
-      <div id="carrusel">
+      <div id="content">
         <Carrusel images={images} autoPlay={true} showButtons={true} />
       </div>
-      <div id="content">
+      <div id="">
         <Content />
       </div>
       <div id="contact">
