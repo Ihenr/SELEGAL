@@ -3,7 +3,7 @@ import './Services.css';
 
 const Services = () => {
   return (
-    <section className=" relative pb-10 bg-white ">
+    <section className=" relative bg-white ">
       <div className="title_services">
         <p>Atendemos todos tus asuntos</p>
       </div>

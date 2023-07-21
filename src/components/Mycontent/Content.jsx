@@ -3,7 +3,7 @@ import video from '../../assets/imgs/video.mp4';
 
 const Content = () => {
   return (
-    <section className="flex justify-center items-center py-20">
+    <section className="flex justify-center items-center pt-20">
       <video
         src={video}
         controls

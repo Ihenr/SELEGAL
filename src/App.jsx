@@ -25,22 +25,22 @@ function App() {
       <div>
         <About />
       </div>
-      <div id="services">
+      <div id="services" className="pt-10">
         <Services />
       </div>
-      <div id="team">
+      <div id="team" className="pt-20">
         <Team />
       </div>
-      <div id="content">
+      <div className="pt-20" id="content">
         <Carrusel images={images} autoPlay={true} showButtons={true} />
       </div>
-      <div id="">
+      <div>
         <Content />
       </div>
-      <div id="contact">
+      <div id="contact" className="pt-20">
         <Contact />
       </div>
-      <div id="location">
+      <div id="location" className="pt-20">
         <Location />
       </div>
       <Footer />

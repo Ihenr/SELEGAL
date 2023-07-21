@@ -37,8 +37,10 @@
 
 .items {
   border-radius: 15px;
-  background-color: #e97555;
-  /* background-image: linear-gradient(to top, #c4726a, #d5846f, #e59675, #f3aa7b, #ffbf82); */
+  /* background-image: linear-gradient(to bottom, #e55d51, #ea6e47, #ec813e, #eb9337, #e7a633); */
+  background-image: linear-gradient(to bottom, #e55d51, #e6604f, #e7634d, #e8674b, #e96a49, #ea7046, #eb7643, #ec7c40, #ec863b, #eb9137, #ea9b34, #e7a633);
+  /* background-color: #e97555; */
+  /* background-image: linear-gradient(to top, #e0bd3dda, #e7a633da, #eb8e31da, #ec7637da, #e95c40da); */
   width: 350px;
   height: 350px;
   box-shadow: 0 5px 15px 6px rgba(0, 0, 0, 0.25);
@@ -58,8 +60,9 @@
 
 .item ul {
   padding: 20px 20px 0 40px;
-  font-size: 1.4rem;
-  color: #fff;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 500;
   list-style-type: disc;
 }
 
@@ -67,6 +70,6 @@
   .title_services p {
     font-size: 2rem;
     text-align: center;
-    margin-top: 5rem;
+
   }
 }

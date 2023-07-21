@@ -3,10 +3,8 @@ import './Team.css';
 
 const Team = () => {
   return (
-    <section className=" w-full flex flex-col justify-center items-center py-16 team mt-20">
-      <h2 className=" text-5xl uppercase  font-bold font-['Krub', sans-serif]">
-        Nuestro Equipo
-      </h2>
+    <section className=" w-full flex flex-col justify-center items-center py-16 team ">
+      <h2 className=" text-5xl uppercase  font-bold  ">Nuestro Equipo</h2>
       <div className="w-full flex flex-wrap gap-10 text-2xl  p-5  justify-evenly items-center carousel__slider">
         <a
           href="https://wa.me/593985570349"

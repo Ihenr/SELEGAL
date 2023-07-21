@@ -30,7 +30,6 @@ img.loaded {
 }
 
 .controls button {
-  /* box-shadow: 0px 5px 15px 6px rgba(255, 255, 255, 0.25); */
   filter: drop-shadow(0px 5px 4px rgb(0, 0, 0));
   padding: 0;
 }
@@ -44,7 +43,7 @@ img.loaded {
 
 @media only screen and (max-width: 500px) {
   .slides {
-    width: 90%;
+    width: 95%;
     height: 300px;
   }
 }

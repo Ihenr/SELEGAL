@@ -41,7 +41,7 @@ const Carrusel = ({ images, autoPlay, showButtons }) => {
   });
 
   return (
-    <section className="flex justify-center items-center pt-20 flex-col ">
+    <section className="flex justify-center items-center flex-col ">
       <div className=" slides ">
         <img
           src={selectedImage}
