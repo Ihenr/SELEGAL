@@ -8,12 +8,12 @@ import Footer from './components/Footer/Footer';
 import Location from './components/Location/Location';
 import Content from './components/Mycontent/Content';
 import Carrusel from './components/Carrusel/Carrusel';
-import img1 from './assets/imgs/img1.jpg';
-import img2 from './assets/imgs/img2.jpg';
-import img3 from './assets/imgs/img3.jpg';
-import img4 from './assets/imgs/img4.jpg';
-import img5 from './assets/imgs/img5.jpg';
-import img6 from './assets/imgs/img6.jpg';
+import img1 from './assets/imgs/img1.webp';
+import img2 from './assets/imgs/img2.webp';
+import img3 from './assets/imgs/img3.webp';
+import img4 from './assets/imgs/img4.webp';
+import img5 from './assets/imgs/img5.webp';
+import img6 from './assets/imgs/img6.webp';
 
 function App() {
   const images = [img1, img2, img3, img4, img5, img6];

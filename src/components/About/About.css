@@ -6,8 +6,8 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: left bottom;
-  height: 90vh;
-  color: #000;
+  min-height: 90vh;
+
 }
 
 .intro {
