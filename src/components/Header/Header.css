@@ -25,6 +25,7 @@ header {
 .logo img {
   width: 190px;
   margin-left: 40px;
+  height: auto;
 }
 
 .menu .lists {
