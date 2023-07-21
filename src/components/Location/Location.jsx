@@ -16,6 +16,7 @@ const Location = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className="shadow-2xl w-full"
+          alt="Selegal"
         ></iframe>
       </div>
       <div className="shadow-2xl rounded-xl w-[600px] my-11 py-8  px-6 max-[630px]:w-[90%]">
