@@ -168,7 +168,7 @@
 
 @media screen and (max-width: 650px) {
   .section {
-    height: 70vh;
+    height: 90vh;
   }
 
   .intro {
@@ -176,7 +176,9 @@
   }
 
   .contenedor_texto {
-    padding-right: 7rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+
   }
 
   .right-cont {

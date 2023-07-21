@@ -13,7 +13,7 @@ const Services = () => {
             <div className="item-title">
               <h4>laborales</h4>
             </div>
-            <div className="item ">
+            <div className="item">
               <ul>
                 <li>Asesoría Especializada Preventiva</li>
                 <li>Representación ante el Ministerio del Trabajo</li>

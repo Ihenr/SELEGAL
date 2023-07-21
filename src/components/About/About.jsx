@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="section ">
       <div className="intro">
-        <div className="i-left">
+        <div className="i-left" data-aos="zoom-in">
           <div className="contenedor_texto">
             <h1>Asesorías legales</h1>
             <p>
@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
         <div className="i-right">
-          <div className="right-cont">
+          <div className="right-cont" data-aos="zoom-in">
             <div className="right__img">
               <img src={img} alt="SELEGAL"></img>
             </div>
