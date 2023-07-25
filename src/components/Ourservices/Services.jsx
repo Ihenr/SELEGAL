@@ -20,6 +20,7 @@ const Services = () => {
                 <li>Vistos buenos</li>
                 <li>Conflictos Colectivos</li>
                 <li>Patrocinio en juicios laborales</li>
+                <li>Desahucios (inquilinato)</li>
               </ul>
             </div>
           </div>
@@ -33,7 +34,7 @@ const Services = () => {
                 <li>Cobro de letras de cambio</li>
                 <li>Trámites Notariales</li>
                 <li>Daño Moral</li>
-                <li>Desahucios (inquilinato)</li>
+
                 <li>Prescripción Extraordinaria Adquisitiva de Dominio</li>
                 <li>Juicios de Partición e Inventario</li>
               </ul>
